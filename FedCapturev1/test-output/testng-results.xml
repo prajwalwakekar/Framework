@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting are done and Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Launching of Browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser has launched and application is launching]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test has ended and reports have been generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test has ended and reports have been generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12704" started-at="2019-09-18T14:01:11Z" finished-at="2019-09-18T14:01:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12704" started-at="2019-09-18T14:01:11Z" finished-at="2019-09-18T14:01:24Z">
+      <class name="com.salesforce.testCases.TC_LoginTest_01">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="setUpSuite" is-config="true" duration-ms="447" started-at="2019-09-18T14:01:10Z" finished-at="2019-09-18T14:01:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting are done and Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="setup" is-config="true" duration-ms="7661" started-at="2019-09-18T14:01:11Z" finished-at="2019-09-18T14:01:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching of Browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser has launched and application is launching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="loginApp" duration-ms="2411" started-at="2019-09-18T14:01:18Z" finished-at="2019-09-18T14:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="something(org.testng.ITestResult)[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="something" is-config="true" duration-ms="323" started-at="2019-09-18T14:01:21Z" finished-at="2019-09-18T14:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=TC_LoginTest_01.loginApp()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test has ended and reports have been generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- something -->
+        <test-method status="PASS" signature="loginApp1()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="loginApp1" duration-ms="3" started-at="2019-09-18T14:01:21Z" finished-at="2019-09-18T14:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp1 -->
+        <test-method status="PASS" signature="something(org.testng.ITestResult)[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="something" is-config="true" duration-ms="91" started-at="2019-09-18T14:01:21Z" finished-at="2019-09-18T14:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=TC_LoginTest_01.loginApp1()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test has ended and reports have been generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- something -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salesforce.testCases.TC_LoginTest_01@5c3bd550]" name="tearDown" is-config="true" duration-ms="2198" started-at="2019-09-18T14:01:21Z" finished-at="2019-09-18T14:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.testCases.TC_LoginTest_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
