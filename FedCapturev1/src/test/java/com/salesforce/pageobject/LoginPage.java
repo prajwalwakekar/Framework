@@ -15,7 +15,6 @@ public class LoginPage {
 	public LoginPage(WebDriver ldriver)
 	{
 		this.driver = ldriver;
-	
 	}
 	
 	@FindBy(xpath="//*[@type='email']") WebElement uname;
